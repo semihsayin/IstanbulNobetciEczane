@@ -4,14 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/istanbul"
     tools:context=".InfoEczane">
+
 
     <TextView
         android:id="@+id/eAdi2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
+        android:fontFamily="@font/poppins_bold"
         android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
         app:layout_constraintStart_toEndOf="@+id/EczaneAdi2"
         app:layout_constraintTop_toTopOf="@+id/EczaneAdi2" />
 
@@ -21,18 +26,26 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="160dp"
+        android:fontFamily="@font/poppins_bold"
         android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/EczaneAdres2"
         app:layout_constraintTop_toBottomOf="@+id/EczaneAdres2" />
 
     <TextView
         android:id="@+id/EczaneAdres2"
-        android:layout_width="56dp"
-        android:layout_height="19dp"
-        android:layout_marginStart="112dp"
-        android:layout_marginTop="20dp"
+        android:layout_width="75dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/poppins_bold"
         android:text="ADRES"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="@+id/EczaneTel2"
         app:layout_constraintTop_toBottomOf="@+id/EczaneTel2" />
 
@@ -40,9 +53,13 @@
         android:id="@+id/EczaneAdi2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="64dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/poppins_bold"
         android:text="Eczane Adi"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/EczaneAdi"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/EczaneAdi"
         app:layout_constraintTop_toBottomOf="@+id/mapB1" />
 
@@ -51,7 +68,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
+        android:fontFamily="@font/poppins_bold"
         android:text="Tel : "
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/EczaneAdi2"
         app:layout_constraintStart_toStartOf="@+id/EczaneAdi2"
         app:layout_constraintTop_toBottomOf="@+id/EczaneAdi2" />
@@ -61,7 +81,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
+        android:fontFamily="@font/poppins_bold"
         android:text="Tel : "
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/EczaneAdi"
         app:layout_constraintStart_toStartOf="@+id/EczaneAdi"
         app:layout_constraintTop_toBottomOf="@+id/EczaneAdi" />
@@ -72,7 +95,10 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="64dp"
         android:layout_marginTop="32dp"
+        android:fontFamily="@font/poppins_bold"
         android:text="Eczane Adi"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/title" />
 
@@ -81,7 +107,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
+        android:fontFamily="@font/poppins_bold"
         android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
         app:layout_constraintStart_toEndOf="@+id/EczaneAdi"
         app:layout_constraintTop_toTopOf="@+id/EczaneAdi" />
 
@@ -89,7 +118,10 @@
         android:id="@+id/eTel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_bold"
         android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/eAdi"
         app:layout_constraintStart_toStartOf="@+id/eAdi"
         app:layout_constraintTop_toTopOf="@+id/EczaneTel" />
@@ -98,19 +130,27 @@
         android:id="@+id/EczaneAdres"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="108dp"
+        android:layout_marginStart="100dp"
         android:layout_marginTop="20dp"
+        android:fontFamily="@font/poppins_bold"
         android:text="ADRES"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="@+id/EczaneTel"
         app:layout_constraintTop_toBottomOf="@+id/EczaneTel" />
 
     <TextView
         android:id="@+id/eAdres"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="374dp"
+        android:layout_height="44dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="160dp"
+        android:fontFamily="@font/poppins_bold"
         android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/EczaneAdres"
         app:layout_constraintTop_toBottomOf="@+id/EczaneAdres" />
@@ -119,7 +159,10 @@
         android:id="@+id/eTel2"
         android:layout_width="0dp"
         android:layout_height="17dp"
+        android:fontFamily="@font/poppins_bold"
         android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/EczaneTel2"
         app:layout_constraintEnd_toEndOf="@+id/eAdi2"
         app:layout_constraintStart_toStartOf="@+id/eAdi2"
@@ -127,31 +170,42 @@
 
     <Button
         android:id="@+id/mapB1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="169dp"
+        android:layout_height="56dp"
         android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_button"
+        android:fontFamily="@font/poppins_bold"
         android:text="Haritada Göster"
+        android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/eAdres" />
 
     <Button
         android:id="@+id/mapB2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="169dp"
+        android:layout_height="57dp"
         android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_button"
+        android:fontFamily="@font/poppins_bold"
         android:text="Haritada Göster"
+        android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/eAdres2" />
+
 
     <TextView
         android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
+        android:fontFamily="@font/poppins_bold"
         android:textAlignment="center"
         android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
