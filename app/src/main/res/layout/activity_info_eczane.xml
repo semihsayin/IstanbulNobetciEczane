@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InfoEczane">
+
+    <TextView
+        android:id="@+id/eAdi2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:textAlignment="center"
+        app:layout_constraintStart_toEndOf="@+id/EczaneAdi2"
+        app:layout_constraintTop_toTopOf="@+id/EczaneAdi2" />
+
+    <TextView
+        android:id="@+id/eAdres2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="160dp"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/EczaneAdres2"
+        app:layout_constraintTop_toBottomOf="@+id/EczaneAdres2" />
+
+    <TextView
+        android:id="@+id/EczaneAdres2"
+        android:layout_width="56dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="20dp"
+        android:text="ADRES"
+        app:layout_constraintStart_toStartOf="@+id/EczaneTel2"
+        app:layout_constraintTop_toBottomOf="@+id/EczaneTel2" />
+
+    <TextView
+        android:id="@+id/EczaneAdi2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="Eczane Adi"
+        app:layout_constraintEnd_toEndOf="@+id/EczaneAdi"
+        app:layout_constraintStart_toStartOf="@+id/EczaneAdi"
+        app:layout_constraintTop_toBottomOf="@+id/mapB1" />
+
+    <TextView
+        android:id="@+id/EczaneTel2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Tel : "
+        app:layout_constraintEnd_toEndOf="@+id/EczaneAdi2"
+        app:layout_constraintStart_toStartOf="@+id/EczaneAdi2"
+        app:layout_constraintTop_toBottomOf="@+id/EczaneAdi2" />
+
+    <TextView
+        android:id="@+id/EczaneTel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Tel : "
+        app:layout_constraintEnd_toEndOf="@+id/EczaneAdi"
+        app:layout_constraintStart_toStartOf="@+id/EczaneAdi"
+        app:layout_constraintTop_toBottomOf="@+id/EczaneAdi" />
+
+    <TextView
+        android:id="@+id/EczaneAdi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="32dp"
+        android:text="Eczane Adi"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title" />
+
+    <TextView
+        android:id="@+id/eAdi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:textAlignment="center"
+        app:layout_constraintStart_toEndOf="@+id/EczaneAdi"
+        app:layout_constraintTop_toTopOf="@+id/EczaneAdi" />
+
+    <TextView
+        android:id="@+id/eTel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="@+id/eAdi"
+        app:layout_constraintStart_toStartOf="@+id/eAdi"
+        app:layout_constraintTop_toTopOf="@+id/EczaneTel" />
+
+    <TextView
+        android:id="@+id/EczaneAdres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="20dp"
+        android:text="ADRES"
+        app:layout_constraintStart_toStartOf="@+id/EczaneTel"
+        app:layout_constraintTop_toBottomOf="@+id/EczaneTel" />
+
+    <TextView
+        android:id="@+id/eAdres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="160dp"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/EczaneAdres"
+        app:layout_constraintTop_toBottomOf="@+id/EczaneAdres" />
+
+    <TextView
+        android:id="@+id/eTel2"
+        android:layout_width="0dp"
+        android:layout_height="17dp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="@+id/EczaneTel2"
+        app:layout_constraintEnd_toEndOf="@+id/eAdi2"
+        app:layout_constraintStart_toStartOf="@+id/eAdi2"
+        app:layout_constraintTop_toBottomOf="@+id/EczaneAdi2" />
+
+    <Button
+        android:id="@+id/mapB1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Haritada Göster"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eAdres" />
+
+    <Button
+        android:id="@+id/mapB2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Haritada Göster"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eAdres2" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
